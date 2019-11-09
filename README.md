@@ -15,5 +15,6 @@ The part of countclock_basic is composed of several blocks, which count for diff
 2. segment7  
 The part of segment7 counts for four 7-segment LED display.  
 	· Case disp: assign the seven single segments to the outputs correspondingly  
+
 The block diagram consisting of the created symbol from Verilog HDL code is shown below.
 ![Image](https://github.com/weiyi-li/Multi-function-Digital-Clock/blob/master/Image/Hardware%20block%20diagram%20by%20created%20symbols.PNG)
