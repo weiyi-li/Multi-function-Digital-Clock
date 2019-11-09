@@ -2,7 +2,7 @@
 A multi-function digital clock implemented in Verilog HDL, supported by Quartus II and Altera DE1 FPGA.  
 Functions: Count clock | Stopwatch | Countdown | Time setting | Reset | Pulse and continue | LED display  
 The codes are divided into two parts and they are defining the behaviors and functions of countclock_basic and segment7 respectively.
-1. countclock_basic  
+1. **countclock_basic**  
 The part of countclock_basic is composed of several blocks, which count for different functions.  
 	· Frequency division clk: introduce a clock signal of 27000000Hz, which count 1 second each time  
 	· Initial zero status rstn: introduce a negative reset control to zero out the display  
@@ -12,7 +12,7 @@ The part of countclock_basic is composed of several blocks, which count for diff
 	· Countdown enactd: enable countdown function  
 	· LED: enable LED light LEDR0 when unit digit of second reaches 0.  
 	· Automatic counting: count up the register reg [26:0] count by default under all conditions  
-2. segment7  
+2. **segment7**  
 The part of segment7 counts for four 7-segment LED display.  
 	· Case disp: assign the seven single segments to the outputs correspondingly  
 
