@@ -11,7 +11,7 @@ The part of countclock_basic is composed of several blocks, which count for diff
 · Stopwatch enastp: enable stopwatch function  
 · Countdown enactd: enable countdown function  
 · LED: enable LED light LEDR0 when unit digit of second reaches 0.  
-· Automatic counting: count up the register _reg_ [26:0] count by default under all conditions  
+· Automatic counting: count up the register _reg [26:0]_ count by default under all conditions  
 ## segment7  
 The part of segment7 counts for four 7-segment LED display.  
 · Case disp: assign the seven single segments to the outputs correspondingly  
