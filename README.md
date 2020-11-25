@@ -2,7 +2,7 @@
 A multi-function digital clock implemented in Verilog HDL, supported by Quartus II and Altera DE1 FPGA.  
 
 ## Functions
-Clock count,stopwatch, countdown, time setting, reset, pulse and continue, LED display  
+Clock count, stopwatch, countdown, time setting, reset, pulse and continue, LED display  
 Codes are divided into two parts and they are defining the behaviors and functions of countclock_basic and segment7 respectively.
 
 ## Parts of code
