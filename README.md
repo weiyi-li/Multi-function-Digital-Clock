@@ -26,8 +26,11 @@ The block diagram consisting of the created symbol from Verilog HDL code is show
 ## User Interface
 Five toggle switches from SW4 to SW0 and four key buttons from Key3 to Key0 are used, and combinations of inputs give rise to different functions correspondingly. “1” means that the switch is “on” while “0” represents an “off” status of the switch. The toggle switch SW0 is fed by a clock signal _clk_, and another input _rstn_ representing negative reset is assigned to SW1.
 ### Clock count
-  SW4  |  SW3  |  SW2  |  SW1  |  SW0  
-  -0-  |  -1-  |  -0-  |  -0-  |  -1-  
+    SW4 = 0  
+    SW3 = 1  
+    SW2 = 0  
+    SW1 = 0  
+    SW0 = 1  
 Turn on the toggle switch SW0 and the clock signal _clk_ is supplied. Since the input _enaclk_ connected to SW3 represents the beginning of clock count, the clock will start
 to count upon turning on the switch SW3. In this part, the clock count can also be reset, pulsed and continued. Turn off switch SW0 at clock counting status and the clock count will pulse due to the cutoff of clock signal. Turn it on again will make the count continue. In addition, turning off switch SW3 will lead to a reset and the display will show “0000”.
 ## Demonstration
