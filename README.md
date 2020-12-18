@@ -35,6 +35,6 @@ Turn on the toggle switch SW0 and the clock signal _clk_ is supplied. Since the 
 to count upon turning on the switch SW3. In this part, the clock count can also be reset, pulsed and continued. Turn off switch SW0 at clock counting status and the clock count will pulse due to the cutoff of clock signal. Turn it on again will make the count continue. In addition, turning off switch SW3 will lead to a reset and the display will show “0000”.
 
 ## Demonstration
-![Image](https://github.com/weiyi-li/Multi-function-Digital-Clock/blob/master/Image/DE1 Sample.jpg)
+![Image](https://github.com/weiyi-li/Multi-function-Digital-Clock/blob/master/Image/DE1%20Sample.jpg)
    
 
