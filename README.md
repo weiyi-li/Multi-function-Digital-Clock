@@ -33,6 +33,17 @@ Five toggle switches from SW4 to SW0 and four key buttons from Key3 to Key0 are 
     SW0 = 1  
 Turn on the toggle switch SW0 and the clock signal _clk_ is supplied. Since the input _enaclk_ connected to SW3 represents the beginning of clock count, the clock will start
 to count upon turning on the switch SW3. In this part, the clock count can also be reset, pulsed and continued. Turn off switch SW0 at clock counting status and the clock count will pulse due to the cutoff of clock signal. Turn it on again will make the count continue. In addition, turning off switch SW3 will lead to a reset and the display will show “0000”.
+### Time setting
+The time setting function is supported by five toggle switches and four key buttons. By turning on toggle switch SW3 and SW1, the LED displays are reset and the time can be set.
+        SW4 = 0  
+        SW3 = 1  
+        SW2 = 0  
+        SW1 = 1  
+        SW0 = 0  
+The four 7-segment LED displays are controlled by four key buttons respectively. By
+pressing buttons one by one, the corresponding 7-segment LED will enter a loop from
+0 to 9. Therefore, the time setting can be implemented.
+
 
 ## Demonstration
 ![Image](https://github.com/weiyi-li/Multi-function-Digital-Clock/blob/master/Image/DE1%20Sample.jpg)
